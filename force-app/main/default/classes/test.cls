@@ -2,7 +2,7 @@
  * Class containing tests for SiteRegisterController
  */
 @IsTest public with sharing class test {
-    @IsTest(SeeAllData=true) static void testRegistration() {
+    @IsTest(SeeAllData=true) static void testRegistration2() {
         SiteRegisterController controller = new SiteRegisterController();
         controller.username = 'test@force.com';
         controller.email = 'test@force.com';
